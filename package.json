@@ -1,0 +1,46 @@
+{
+    "name": "boilerplate-jekyll",
+    "version": "0.1.0",
+    "description": "A boilerplate to get started for static website using Jekyll + Tailwind CSS.",
+    "main": "_site/index.html",
+    "scripts": {
+        "watch": "gulp watch",
+        "build": "gulp build",
+        "build:image": "gulp build:image",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alphaweblab/boilerplate-jekyll.git"
+    },
+    "author": "Alpha Weblab",
+    "license": "",
+    "bugs": {
+        "url": "https://github.com/alphaweblab/boilerplate-jekyll/issues"
+    },
+    "homepage": "https://github.com/alphaweblab/boilerplate-jekyll#README",
+    "devDependencies": {
+        "autoprefixer": "^9.1.5",
+        "browser-sync": "^2.26.3",
+        "flexboxgrid": "^6.3.1",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-clean": "^0.4.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-copy": "4.0.1",
+        "gulp-cssimport": "^7.0.0",
+        "gulp-imagemin": "^5.0.3",
+        "gulp-inline-source": "^3.1.0",
+        "gulp-minifier": "^1.2.2",
+        "gulp-postcss": "^8.0.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.0.1",
+        "gulp-tinypng": "^1.0.2",
+        "gulp-util": "^3.0.8",
+        "jquery": "^3.3.1",
+        "postcss-uncss": "^0.16.1",
+        "tailwindcss": "^0.7.2",
+        "uncss": "^0.16.2"
+    },
+    "dependencies": {}
+}

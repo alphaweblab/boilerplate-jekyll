@@ -1,0 +1,11 @@
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - yarn.lock
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - assets/scripts/tailwind.js
+include:
+  - _redirects
